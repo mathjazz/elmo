@@ -48,6 +48,10 @@
 	margin-bottom: 0;
 }
 
+#colophon .footer-nav {
+    margin-left: 170px;
+}
+
 a.external-link {
     background: url(../img/external-link.png) right center no-repeat;
     margin-right: 15px;
