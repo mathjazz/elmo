@@ -109,4 +109,21 @@ $(function() {
   if (location.hash == '#login') {
     AjaxLogin.show_login_form();
   }
+
+  function closePopup() {
+    $('#auth form').hide();
+  }
+
+  // If Esc pressed or clicked outside popup, close it
+  $(document).keyup(function(e) {
+    if (e.keyCode == 27) {
+      closePopup();
+    }
+  });
+  $('body').live("click", function() {
+    closePopup();
+  });
+  $('#auth form').live("click", function(e) {
+    e.stopPropagation();
+  });
 });
