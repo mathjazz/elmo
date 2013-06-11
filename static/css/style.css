@@ -49,8 +49,17 @@
     margin-bottom: 0;
 }
 
+#colophon .footer-license {
+    width: 450px;
+}
+
 #colophon .footer-nav {
-    margin-left: 170px;
+    float: right;
+    text-align: right;
+}
+
+#colophon .footer-nav li {
+    margin: 0;
 }
 
 table.exhibit-tabularView-body td,
