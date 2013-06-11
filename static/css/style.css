@@ -21,6 +21,7 @@
 	position: absolute;
 	right: 0;
 	width: 200px;
+	z-index: 1;
 }
 
 #auth form img {
@@ -51,8 +52,6 @@
 #colophon .footer-nav {
     margin-left: 170px;
 }
-
-
 
 table.exhibit-tabularView-body td,
 table.exhibit-tabularView-body th {
@@ -91,8 +90,6 @@ table.standard td {
     padding: 10px 7px;
     vertical-align: top;
 }
-
-
 
 a.external-link {
     background: url(../img/external-link.png) right center no-repeat;
