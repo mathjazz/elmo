@@ -7,46 +7,46 @@
 }
 
 #main-feature h2 {
-	padding: 0;
+    padding: 0;
 }
 
 #auth {
-	position: relative;
+    position: relative;
 }
 
 #auth form {
-	background: #FFFFFF;
-	box-shadow: 1px 1px 3px #AAAAAA;
-	padding: 20px;
-	position: absolute;
-	right: 0;
-	width: 200px;
-	z-index: 1;
+    background: #FFFFFF;
+    box-shadow: 1px 1px 3px #AAAAAA;
+    padding: 20px;
+    position: absolute;
+    right: 0;
+    width: 200px;
+    z-index: 1;
 }
 
 #auth form img {
-	float: right;
-	margin-top: 5px;
+    float: right;
+    margin-top: 5px;
 }
 
 #auth form .logout .button {
-	width: 200px;
+    width: 200px;
 }
 
 #auth form input {
-	margin-bottom: 10px;
-	width: 185px;
+    margin-bottom: 10px;
+    width: 185px;
 }
 
 #auth form .error {
-	color: #FF0000;
-	margin-bottom: 10px;
-	text-transform: none;
+    color: #FF0000;
+    margin-bottom: 10px;
+    text-transform: none;
 }
 
 #auth form .site_login_error,
 #auth form .site_login_error .message {
-	margin-bottom: 0;
+    margin-bottom: 0;
 }
 
 #colophon .footer-nav {
