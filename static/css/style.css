@@ -86,7 +86,7 @@ table.standard tr {
     border-top: 1px solid #ccc;
 }
 /* instead of relying on order, make this selector more prevalent
-so it take precendence over `table.standard tr` */
+   so it take precendence over `table.standard tr` */
 #main-content table.standard-borderless tr {
     border-top: none;
 }
