@@ -1485,6 +1485,7 @@ nav.menu-bar ol li:first-child a, nav.menu-bar ul li:first-child a { border-left
   list-style-type:none;
   margin:0 0 2px 0;
 }
+/*
 @media only screen and (min-width: 760px) and (max-width: 1000px) {
   #wrapper { width:760px; }
   #masthead, #main-feature, #main-content, .billboard, .container { width:720px; }
@@ -1710,3 +1711,4 @@ nav.menu-bar ol li:first-child a, nav.menu-bar ul li:first-child a { border-left
   #colophon .row { width:420px; }
 }
 .no-js .platform-img.js { display:none; }
+*/
