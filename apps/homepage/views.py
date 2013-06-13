@@ -63,7 +63,6 @@ def index(request):
       'locales_first_half': locales_first_half,
       'locales_second_half': locales_second_half,
       'locales_rest_count': locales_rest_count,
-
     }
     return render(request, 'homepage/index.html', options)
 
