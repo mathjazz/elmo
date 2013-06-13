@@ -54,11 +54,16 @@ def index(request):
 
     feed_items = get_feed_items()
 
+    locs = Locale.objects.all().order_by('name')
+    locs = locs.exclude(code='en-US')
+
     options = {
+      'locales': locs,
       'feed_items': feed_items,
       'locales_first_half': locales_first_half,
       'locales_second_half': locales_second_half,
       'locales_rest_count': locales_rest_count,
+
     }
     return render(request, 'homepage/index.html', options)
 
