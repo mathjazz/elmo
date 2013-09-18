@@ -20,6 +20,7 @@
 {% block javascript_matter %}
 <script src="{% static "js/libs/chosen.jquery.js" %}"></script>
 <script src="{% static "homepage/js/index.js" %}"></script>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 {% endblock %}
 
 {% block alt_header %}
@@ -72,12 +73,17 @@
     </article>
     <article>
         <h2>L10n Discussion</h2>
+        <h3><a href="https://blog.mozilla.org/l10n/">From l10n planet</a></h3>
         <ul class="blog-links">
             {% for item in feed_items %}
             <li><a href="{{ item.url }}">{{ item.title|truncatewords:8 }}</a></li>
             {% endfor %}
-            <li><a href="https://blog.mozilla.org/l10n/">See all news</a></li>
         </ul>
+        <h3><img class="twitter" src="{% static "img/twitter.png" %}"><a href="https://twitter.com/mozilla_l10n">@mozilla_l10n</a></h3>
+        <a class="twitter-timeline" href="https://twitter.com/mozilla_l10n"
+            data-widget-id="355035903061811200"
+            data-tweet-limit="2"
+            data-chrome="noheader nofooter transparent">Loading Tweets by @mozilla_l10n...</a>
     </article>
 </section>
 {% endblock %}
