@@ -46,6 +46,11 @@
     max-height: 150px;
 }
 
+.twitter-follow-button {
+    display: block;
+    min-height: 45px;
+}
+
 .content .blog-links {
     list-style: none;
 }
