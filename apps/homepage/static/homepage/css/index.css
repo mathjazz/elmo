@@ -42,27 +42,12 @@
     width: 260px;
 }
 
-.content article h3 {
-    font-size: 24px;
-    margin: 18px 0 12px;
-}
-
-.content article h3 a,
-.content article h3 a:hover {
-    color: #484848;
-}
-
-.content article h3 .twitter {
-    margin: 0 3px -6px 0;
-}
-
 .content .chzn-container .chzn-results {
     max-height: 150px;
 }
 
 .content .blog-links {
     list-style: none;
-    margin-bottom: 28px;
 }
 
 .content .blog-links li {
